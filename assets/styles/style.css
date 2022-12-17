@@ -47,6 +47,7 @@ header{
     margin: 72px auto;
     display: grid;
     padding: 0px 30px;
+    padding-bottom: 15px;
     grid-template-columns: 2fr 1fr;
 }
 
@@ -115,4 +116,21 @@ header{
 .watch:hover{
     background-color: #dad1eb;
     border-radius: 8px;
+}
+
+.logo-brands{
+    max-width: 1200px;
+    margin: 16px auto;
+    border-top: 2px solid #E5E7EB;
+    border-bottom: 2px solid #E5E7EB;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.logo-brands>ul{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    list-style: none;
 }
