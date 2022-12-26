@@ -81,6 +81,7 @@ header{
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+    transition: all .25s;
     font-feature-settings: 'liga' off;
     padding: 16px 24px;
     color: white;
@@ -107,6 +108,7 @@ header{
     font-feature-settings: 'liga' off;
     color: #7C3AED;
     border: none;
+    transition: all .25s;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -120,17 +122,71 @@ header{
 
 .logo-brands{
     max-width: 1200px;
-    margin: 16px auto;
+    margin: 10px auto;
     border-top: 2px solid #E5E7EB;
     border-bottom: 2px solid #E5E7EB;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .logo-brands>ul{
-    margin: auto;
+    max-width: 900px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     gap: 64px;
     list-style: none;
+}
+
+.features{
+    max-width: 1200px;
+    margin: 106px auto;
+}
+
+.features-content{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.features-content>h2{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.features-content>p{
+    margin-top: 8px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.features-blocks{
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 64px;
+    text-align: center;
+}
+
+.features-blocks>div>h3{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #111827;
+    margin-top: 24px;
+}
+
+.features-blocks>div>span{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #374151;
+    margin-top: 8px;
 }
