@@ -10,253 +10,285 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-            <nav class="menu">
-                <a href="/"><img src="./assets/img/Logo.svg" alt="Logotype"></a>
-                <ul>
+    <!-- СЕКЦИЯ HEADER -->
+    <header class="container header"> 
+        <div class="content">
+            <nav>
+                <a class="header-logo" href="/"><img src="./assets/img/Logo.svg" alt="Logotype"></a>
+                <menu>
                     <li><a href="#">Features</a></li>
                     <li><a href="#">Pricing</a></li>
                     <li><a href="#">Careers</a></li>
                     <li><a href="#">Help</a></li>
-                </ul>
+                </menu>
+                <div class="header-buttons">
+                    <a href="https://apps.apple.com/ua/app/apple-store/id375380948">
+                        <img src="./assets/img/Store_google.png" alt="Google store">
+                    </a>
+                    <a href="https://apps.apple.com/ua/app/apple-store/id375380948">
+                        <img src="./assets/img/Store_apple.png" alt="Apple store">
+                    </a>
+                    <div class="header-hamburger-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
             </nav>
-            <div class="apps">
-                <a href="#"><img src="./assets/img/Store_google.png" alt="Google store"></a>
-                <a href="#"><img src="./assets/img/Store_apple.png" alt="App store"></a>
-            </div>            
-        </header>
-        <div class="banner">
-            <div class="banner-content">
-                <h1>The easiest way to manage projects</h1>
-                <p>From the small stuff to the big picture, organizes the work so teams know what to do, why it matters, and how to get it done.</p>
-
-                <div class="buttons">
-                    <button class="get">Get started</button>
-                    <button class="watch"><img src="./assets/img/icons/Play_icon.svg" alt="">Watch video</button>
-                </div>
-            </div>
-            <img src="./assets/img/Mobile.png" alt="">
-        </div>
-    </div>
-
-    <div class="logo-brands">
-        <ul>
-            <li><a href="#"><img src="./assets/img/logo_brands/AirBnb_logo.svg" alt="Airbnb"></a></li>
-            <li><a href="#"><img src="./assets/img/logo_brands/HubSpot_logo.svg" alt="HubSpot"></a></li>
-            <li><a href="#"><img src="./assets/img/logo_brands/Google_logo.svg" alt="Google"></a></li>
-            <li><a href="#"><img src="./assets/img/logo_brands/Microsoft_logo.svg" alt="Microsoft"></a></li>
-            <li><a href="#"><img src="./assets/img/logo_brands/Walmart_logo.svg" alt="Walmart"></a></li>
-            <li><a href="#"><img src="./assets/img/logo_brands/FedEx_logo.svg" alt="FedEx"></a></li>
-        </ul>
-    </div>
-
-    <section class="features">
-        <div class="features-content">
-            <h2>Tailor-made features</h2>
-            <p>Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
-        </div>
-
-        <div class="features-blocks">
-            <div class="Robust workflow">
-                <img src="./assets/img/icons/icon_1.svg" alt="icon-workflow">
-                <h3>Robust workflow</h3>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</span>
-            </div>
-
-            <div class="flexibility">
-                <img src="./assets/img/icons/icon_2.svg" alt=" icon-flexibility">
-                <h3>Flexibility</h3>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</span>
-            </div>
-
-            <div class="user-friendly">
-                <img src="./assets/img/icons/icon_3.svg" alt="icon-friendly">
-                <h3>User friendly</h3>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</span>
-            </div>
-
-             <div class="multiple-layouts">
-                <img src="./assets/img/icons/icon_4.svg" alt="icon-layouts">
-                <h3>Multiple layouts</h3>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</span>
-             </div>
-
-             <div class="better-components">
-                <img src="./assets/img/icons/icon_5.svg" alt="icon-components">
-                <h3>Better components</h3>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</span>
-             </div>
-
-             <div class="well-organised">
-                <img src="./assets/img/icons/icon_6.svg" alt="icon-organised">
-                <h3>Well organised</h3>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</span>
-             </div>
-        </div>
-    </section>
-
-    <section class="comments">
-        <div class="quote">
-            <img src="./assets/img/Quote_mark.png" alt="quote mmark">
-        </div>
-
-        <div class="content-comments">
-            <div class="column-1">
-                <div class="comments-text">
-                    <h2>Real Stories from Real<br>Customers</h2>
-                    <p>Get inspired by these stories.</p>
-                </div>
-        
-                <div class="card">
-                    <img src="./assets/img/logo_brands/HubSpot_logo.svg" alt="">
-                    <div class="card-image">
-                        <img src="./assets/img/Quote_mark_small.svg" alt="">
-                        <p>To quickly start my startup landing page design, I was looking for a landing page UI Kit. Landify is one of the best landing page UI kit I have come across. It’s so flexible, well organised and easily editable.</p>
+            <div class="banner">
+                <div class="banner-content">
+                    <h1>The easiest way to manage projects</h1>
+                    <p>From the small stuff to the big picture, organizes the work so teams know what to do, why it matters,
+                        and how to get it done.</p>
+                    <div class="banner-buttons">
+                        <button class="banner-btn banner-get">Get started</button>
+                        <button class="banner-btn banner-watch">
+                            <img src="./assets/img/Icons/Play_icon.svg" alt="Play icon">
+                            Watch Video
+                        </button>
                     </div>
-                    <p class="name">Floyd Miles</p>
-                    <p class="job-title">Vice President, GoPro</p>
+                </div>
+                <img src="./assets/img/Mobile.png" alt="Mobile app">
+            </div>
+        </div>
+    </header>
+
+    <!-- СЕКЦИЯ BRANDS -->
+    <section class="container">
+        <div class="content">
+            <div class="brands-logo">
+                <a href="https://www.airbnb.com/">
+                    <img src="./assets/img/Logo_brands/AirBnb_logo.svg" alt="Airbnb">
+                </a>
+                <a href="https://www.hubspot.com/">
+                    <img src="./assets/img/Logo_brands/HubSpot_logo.svg" alt="Hubspot">
+                </a>
+                <a href="https://www.google.com.ua/">
+                    <img src="./assets/img/Logo_brands/Google_logo.svg" alt="Google">
+                </a>
+                <a href="https://www.microsoft.com/uk-ua">
+                    <img src="./assets/img/Logo_brands/Microsoft_logo.svg" alt="Microsoft">
+                </a>
+                <a href="https://www.walmart.com/">
+                    <img src="./assets/img/Logo_brands/Walmart_logo.svg" alt="Walmart">
+                </a>
+                <a href="https://www.fedex.com/en-us/home.html">
+                    <img src="./assets/img/Logo_brands/FedEx_logo.svg" alt="FedEx">
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- СЕКЦИЯ FEATURES -->
+    <section class="container">
+        <div class="content">
+            <div class="features-text">
+                <h1>Tailor-made features</h1>
+                <p>Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
+            </div>
+            <div class="features-cells">
+                <div class="feature-cell">
+                    <img src="./assets/img/Icons/icon_1.svg" alt="">
+                    <h2>Robust workflow</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Sed erat nibh tristique ipsum.</p>
+                </div>
+                <div class="feature-cell">
+                    <img src="./assets/img/Icons/icon_2.svg" alt="">
+                    <h2>Flexibility</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Sed erat nibh tristique ipsum.</p>
+                </div>
+                <div class="feature-cell">
+                    <img src="./assets/img/Icons/icon_3.svg" alt="">
+                    <h2>User friendly</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Sed erat nibh tristique ipsum.</p>
+                </div>
+                <div class="feature-cell">
+                    <img src="./assets/img/Icons/icon_4.svg" alt="">
+                    <h2>Multiple layouts</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Sed erat nibh tristique ipsum.</p>
+                </div>
+                <div class="feature-cell">
+                    <img src="./assets/img/Icons/icon_5.svg" alt="">
+                    <h2>Better components</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Sed erat nibh tristique ipsum.</p>
+                </div>
+                <div class="feature-cell">
+                    <img src="./assets/img/Icons/icon_6.svg" alt="">
+                    <h2>Well organised</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Sed erat nibh tristique ipsum.</p>
                 </div>
             </div>
-    
-            <div class="column-2">
-                <div class="card-airbnb">
-                    <img src="./assets/img/logo_brands/AirBnb_logo.svg" alt="">
-                    <div class="card-image">
-                        <img src="./assets/img/Quote_mark_small.svg" alt="">
-                        <p>I used landify and created a landing page for my startup within a week. The Landify UI Kit is simple and highly intuitive, so anyone can use it.</p>
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ COMMENTS -->
+    <section class="container comments">
+        <div class="content">
+            <img class="comments-quote" src="./assets/img/Quote_mark.png" alt="quote mmark">
+            <div class="comments-area">
+                <div class="comments-area-left">
+                    <div class="text">
+                        <h2>Real Stories from Real Customers</h2>
+                        <p>Get inspired by these stories.</p>
                     </div>
-                    <p class="name">Jane Cooper</p>
-                    <p class="job-title">CEO, Airbnb</p>
-                </div>
-    
-                <div class="card-strapi">
-                    <img src="./assets/img/logo_brands/Strapi_logo.svg" alt="">
-                    <div class="card-image">
-                        <img src="./assets/img/Quote_mark_small.svg" alt="">
-                        <p>Landify saved our time in designing my company page.</p>
+                    <div class="comments-card">
+                        <img src="./assets/img/logo_brands/HubSpot_logo.svg" alt="">
+                        <div class="comments-card-content">
+                            <img src="./assets/img/Quote_mark_small.svg" alt="">
+                            <div class="comments-card-text">
+                                <p>To quickly start my startup landing page design, I was looking for a landing page UI Kit. Landify is one of the best landing page UI kit I have come across. It’s so flexible, well organised and easily editable.</p>
+                                <p class="name">Floyd Miles</p>
+                                <p class="job-title">Vice President, GoPro</p>
+                            </div>
+                        </div>
                     </div>
-                    <p class="name">Kristin Watson</p>
-                    <p class="job-title">Co-Founder, Strapi</p>
                 </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="achievements">
-        <div class="achievements-content">
-            <h2>Our 18 years of<br>achievements</h2>
-            <p>With our super powers we have reached this</p>
-        </div>
-
-        <div class="achievements-blocks">
-            <div class="block">
-                <img src="./assets/img/icons/icon_1.svg" alt="">
-                <div class="achievements-text">
-                    <h3>10,000+</h3>
-                    <p>Downloads per day</p>
+                <div class="comments-area-right">
+                    <div class="comments-card mw-488">
+                        <img src="./assets/img/logo_brands/AirBnb_logo.svg" alt="">
+                        <div class="comments-card-content">
+                            <img src="./assets/img/Quote_mark_small.svg" alt="">
+                            <div class="comments-card-text">
+                                <p>I used landify and created a landing page for my startup within a week. The Landify UI Kit is simple and highly intuitive, so anyone can use it.</p>
+                                <p class="name">Jane Cooper</p>
+                                <p class="job-title">CEO, Airbnb</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comments-card">
+                        <img src="./assets/img/logo_brands/Strapi_logo.svg" alt="">
+                        <div class="comments-card-content">
+                            <img src="./assets/img/Quote_mark_small.svg" alt="">
+                            <div class="comments-card-text">
+                                <p>Landify saved our time in designing my company page.</p>
+                                <p class="name">Kristin Watson</p>
+                                <p class="job-title">Co-Founder, Strapi</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div class="block">
-                <img src="./assets/img/icons/icon_4.svg" alt="">
-                <div class="achievements-text">
-                    <h3>2 Million</h3>
-                    <p>Users</p>
-                </div>
-            </div>
-
-            <div class="block">
-                <img src="./assets/img/icons/icon_5.svg" alt="">
-                <div class="achievements-text">
-                    <h3>500+</h3>
-                    <p>Clients</p>
-                </div>
-            </div>
-
-            <div class="block">
-                <img src="./assets/img/icons/icon_6.svg" alt="">
-                <div class="achievements-text">
-                    <h3>140</h3>
-                    <p>Countries</p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="tools">
-        <div class="tools-content">
-            <h2>Easy integrations<br>with 170+ tools</h2>
-            <p>Connect Landify with your favourite tools that you use<br>daily and keep things on track.</p>
-        </div>
-
-        <div class="tools-icon">
-            <div class="row-1">
-                <img src="./assets/img/icons_brands/icon_1.png" alt="">
-                <img src="./assets/img/icons_brands/icon_2.png" alt="">
-                <img src="./assets/img/icons_brands/icon_3.png" alt="">
-                <img src="./assets/img/icons_brands/icon_4.png" alt="">
-            </div>
-            <div class="row-2">
-                <img src="./assets/img/icons_brands/icon_5.png" alt="">
-                <img src="./assets/img/icons_brands/icon_6.png" alt="">
-                <img src="./assets/img/icons_brands/icon_7.png" alt="">
             </div>
         </div>
     </section>
 
-    <div class="mobile-app">
-        <div class="app-content">
-            <div class="tools-content">
-                <h2>Manage all projects from<br>your mobile</h2>
-                <p>Download the app to manage your projects, keep track of the progress and complete tasks without procastinating. Stay on track and complete on time!</p>
-    
-                <div class="app-buttons">
-                    <p>Get the app</p>
+    <!-- СЕКЦИЯ ACHIEVEMENTS -->
+    <section class="container">
+        <div class="content">
+            <div class="achievements">
+                <div class="text">
+                    <h2>Our 18 years of achievements</h2>
+                    <p>With our super powers we have reached this</p>
+                </div>
+                <div class="achievements-blocks">
+                    <div class="achievements-item">
+                        <img src="./assets/img/icons/icon_1.svg" alt="">
+                        <div class="achievements-text">
+                            <h3>10,000+</h3>
+                            <p>Downloads per day</p>
+                        </div>
+                    </div>
+                    <div class="achievements-item">
+                        <img src="./assets/img/icons/icon_4.svg" alt="">
+                        <div class="achievements-text">
+                            <h3>2 Million</h3>
+                            <p>Users</p>
+                        </div>
+                    </div>
+                    <div class="achievements-item">
+                        <img src="./assets/img/icons/icon_5.svg" alt="">
+                        <div class="achievements-text">
+                            <h3>500+</h3>
+                            <p>Clients</p>
+                        </div>
+                    </div>
+                    <div class="achievements-item">
+                        <img src="./assets/img/icons/icon_6.svg" alt="">
+                        <div class="achievements-text">
+                            <h3>140</h3>
+                            <p>Countries</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ TOOLS -->
+    <section class="container">
+        <div class="content">
+            <div class="tools">
+                <div class="text">
+                    <h2>Easy integrations<br>with 170+ tools</h2>
+                    <p>Connect Landify with your favourite tools that you use<br>daily and keep things on track.</p>
+                </div>
+                <!-- Интерактивный вариант -->
+                <div class="tools-icon">
+                    <div class="row">
+                        <img src="./assets/img/icons_brands/icon_1.png" alt="">
+                        <img src="./assets/img/icons_brands/icon_2.png" alt="">
+                        <img src="./assets/img/icons_brands/icon_3.png" alt="">
+                        <img src="./assets/img/icons_brands/icon_4.png" alt="">
+                    </div>
+                    <div class="row">
+                        <img src="./assets/img/icons_brands/icon_5.png" alt="">
+                        <img src="./assets/img/icons_brands/icon_6.png" alt="">
+                        <img src="./assets/img/icons_brands/icon_7.png" alt="">
+                    </div>
+                </div>
+                <!-- НЕ Интерактивный вариант -->
+                <!-- <img src="./assets/img/Logos.png" alt=""> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ MOBILE -->
+    <section class="container mobile">
+        <div class="content">
+            <div class="mobile-block">
+                <div class="mobile-content">
+                    <div class="text">
+                        <h2>Manage all projects from your mobile</h2>
+                        <p>Download the app to manage your projects, keep track of the progress and complete tasks without procastinating. Stay on track and complete on time!</p>
+                    </div>
+                    <div class="mobile-app-buttons">
+                        <p>Get the app</p>
+                        <a href="#"><img src="./assets/img/Store_google.png" alt="Google store"></a>
+                        <a href="#"><img src="./assets/img/Store_apple.png" alt="App store"></a>
+                    </div>
+                </div>
+                <div class="mobile-app-img">
+                    <img class="mockup1" src="./assets/img/Phone_Mockup_1.png" alt="">
+                    <img src="./assets/img/Phone_Mockup_2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ FOOTER -->
+    <footer class="container footer">
+        <div class="content">
+            <div class="colum">
+                <div class="about">
+                    <img src="./assets/img/Logo.svg" alt="Logotype">
+                    <div class="text-items">
+                        <a href="#">Download Now</a>
+                        <a href="#">License</a>
+                    </div>
+                    <div class="text-items">
+                        <a href="#">About</a>
+                        <a href="#">Features</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">News</a>
+                        <a href="#">Help</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="rights">© 2021 Landify UI Kit. All rights reserved</div>
+                </div>
+                <div class="app">
+                    <span>Get the App</span>
+                    <a href="#"><img src="./assets/img/Store_apple.png" alt="Apple store"></a>
                     <a href="#"><img src="./assets/img/Store_google.png" alt="Google store"></a>
-                    <a href="#"><img src="./assets/img/Store_apple.png" alt="App store"></a>
                 </div>
-            </div>
-    
-            <div class="app-img">
-                <img style="align-self: flex-start;" class="mockup-1" src="./assets/img/Phone_Mockup_1.png" alt="">
-                <img style="align-self: flex-end;" src="./assets/img/Phone_Mockup_2.png" alt="">
-            </div>
-        </div>
-    </div>
-
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="left-footer">
-                <img src="./assets/img/logomark.svg" alt="Logomark">
-                <div class="footer-text">
-                    <ul>
-                        <li><a href="#">Download now</a></li>
-                        <li><a href="#">License</a></li>
-                    </ul>
-                </div>
-    
-                <div class="footer-menu">
-                    <nav>
-                        <ul>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">Help</a></li>
-                            <li><a href="#">Help</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <p>© 2021 Landify UI Kit. All rights reserved</p>
-            </div>
-    
-            <div class="right-footer">
-                <p>Get the app</p>
-                <a href="#"><img src="./assets/img/Store_google.png" alt="Google store"></a>
-                <a href="#"><img src="./assets/img/Store_apple.png" alt="App store"></a>
             </div>
         </div>
     </footer>
